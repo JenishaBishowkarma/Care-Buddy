@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Care Buddy-"Where Every Pup is a Pal!"</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Lora:400,700|Raleway:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/services.css">
+
+   
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-brand">Care Buddy</div>
+    <button id="mode-toggle">🐶</button>
+    <button class="navbar-toggle" aria-label="Toggle Navigation">&#9776;</button>
+    <ul class="navbar-links">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#contact" class="nav-link">Contact Us</a></li>
+      <li><a href="#login" class="nav-link">Login</a></li>
+      <li><a href="#products" class="nav-link">Products</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- HOME PAGE -->
+    <section id="home" class="page active">
+      <div class="hero">
+        <h1 class="hero-title">Care Buddy Welcomes you!!!</h1>
+        <p class="hero-slogan">"Buddy Up for Tail-Wagging Fun!"</p>
+        <a href="#products" class="cta-btn">Explore Products</a>
+         <a href="#services" class="cta-btn">Explore Services</a>
+      </div>
+      <div class="about-section">
+        <h2>About Us</h2>
+        <p> Care Buddy, the ultimate play haven for your furry friends! Here, we treat every pup like family, providing a safe and fun environment where tails wag and friendships blossom. Our dedicated team is passionate about ensuring your dog enjoys a tail-wagging good time while you’re away. Let’s make each day a paw-some adventure at Care Buddy! 🐾❤️.</p>
+      </div>
+      <div class="cta-section">
+        <h2>Ready to experience Care Buddy?</h2>
+        <a href="#login" class="cta-btn">Login to get started</a>
+        <a href="#contact" class="cta-btn">Contact  Us</a>
+      </div>
+    </section>
+<!--Product ko pageeeeeeeeeee-->
+    <section id="products" class="page">
+  <h2 class="section-title">Our Products</h2>
+  <div class="products-grid">
+    <div class="product-card">
+      <img src="img/watermelon.jpg.webp" alt="Watermelon Popsicles" />
+      <h3 class="product-name">Watermelon Mint Dog Popsicles</h3>
+      <span class="product-price">RS.500</span>
+      <p class="product-desc">A summer delight for your pup—cooling and refreshing watermelon mint popsicles.</p>
+      <button class="add-to-cart-btn" onclick="addToCart(event)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="img/PeanutButter.jpg" alt="Peanut Butter"/>
+      <h3 class="product-name">Peanut Butter Popsicle</h3>
+      <span class="product-price">RS.50</span>
+      <p class="product-desc">Refreshing treat with frozen fruit, yogurt, and creamy peanut butter—dogs love it!</p>
+      <button class="add-to-cart-btn" onclick="addToCart(event)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="img/dogCake.jpg" alt="Dog Cake" />
+      <h3 class="product-name">Barkday Pastry</h3>
+      <span class="product-price">RS.1000</span>
+      <p class="product-desc">Celebrate your furry friend’s birthday with this tasty and meat-packed pastry.</p>
+      <button class="add-to-cart-btn" onclick="addToCart(event)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="img/StrawberryDog.jpg" alt="Strawberry Popsicles" />
+      <h3 class="product-name">Strawberry Popsicles</h3>
+      <span class="product-price">RS.70</span>
+      <p class="product-desc">Sweet strawberry popsicles to beat the heat in a dog-friendly way!</p>
+      <button class="add-to-cart-btn" onclick="addToCart(event)">Add to Cart</button>
+    </div>
+  </div>
+</section>
+<!--serviceeee kooo-->
+    <section id="services" class="page">
+  <h2 class="section-title">Services</h2>
+  <div class="services-grid">
+    
+    <div class="service-card">
+      <img src="img/bath.jpg" alt="Pet Grooming" />
+      <h3 class="service-name">Pet Grooming</h3>
+      <p class="service-desc">At Care Buddy, we understand that life can get busy, and your time is precious. That's why we offer a reliable and caring pick-up and drop-off service tailored to meet your needs. Whether you need transportation for your furry friend to the vet, groomer, or anywhere in between, our dedicated team ensures a safe and comfortable journey. With a focus on your pet’s well-being, we provide cozy rides, gentle handling, and plenty of love along the way. Trust Care Buddy to be your partner in paws, making every trip a pleasant adventure for your beloved companions! 🐾❤️
+      <ul class="service-options">
+        <li>Fleas & Tick Treatment — RS.1800</li>
+        <li>Oatmeal Treatment — RS.1800</li>
+        <li>De-Matting Bath — RS.1800</li>
+      </ul>
+    </div>
+
+    <div class="service-card">
+      <img src="img/pickupdrop.webp" alt="Pickup and Drop-off" />
+      <h3 class="service-name">Pickup & Drop-off</h3>
+      <p class="service-desc">At Care Buddy, we understand that life can get busy, and your time is precious. That's why we offer a reliable and caring pick-up and drop-off service tailored to meet your needs. Whether you need transportation for your furry friend to the vet, groomer, or anywhere in between, our dedicated team ensures a safe and comfortable journey. With a focus on your pet’s well-being, we provide cozy rides, gentle handling, and plenty of love along the way. Trust Care Buddy to be your partner in paws, making every trip a pleasant adventure for your beloved companions! 🐾❤️
+      <p class="service-price">RS.3000 per month</p>
+    </div>
+
+    <div class="service-card">
+      <img src="img/petwalking.webp" alt="Dog Walking" />
+      <h3 class="service-name">Paws and Parade</h3>
+      <p class="service-desc">At Care Buddy, we believe that every walk is an adventure! Our friendly team is here to give your furry pals the fun, exercise, and belly rubs they deserve. Whether it's a playful trot around the block or a joyful romp at the dog park, we tailor each stroll to keep tails wagging and spirits high. Let us bring a little extra tail-wagging joy to your pet's day while you sit back and relax because at Care Buddy, your pets are our buddies! 🐾❤️</p>
+      <p class="service-price">RS.5000 per month</p>
+    </div>
+
+  </div>
+</section>
+
+        
+      
+    </section>
+<!--contact pageeee-->
+   <section id="contact" class="page">
+  <h2 class="section-title">Contact Us</h2>
+  <form class="contact-form">
+    <div class="form-group">
+      <label for="contact-name">Name</label>
+      <input type="text" id="contact-name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone</label>
+      <input type="text" id="phone" name="phone" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="cta-btn">Submit</button>
+    <div class="form-message" style="opacity: 0; transition: opacity 0.3s;"></div>
+  </form>
+  <div class="contact-info">
+    <p><strong>Email:</strong> CareBuddy@gmail.com</p>
+    <p><strong>Phone:</strong> 9862414681</p>
+    <p><strong>Address:</strong> Kapan, Budhanilkantha, Kathmandu</p>
+  </div>
+</section>
+    <!-- LOGIN PAGE -->
+    <section id="login" class="page">
+      <h2 class="section-title">Login</h2>
+      <form class="login-form">
+        <div class="form-group">
+          <label for="login-email">Email</label>
+          <input type="email" id="login-email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="login-password">Password</label>
+          <input type="password" id="login-password" name="password" required>
+        </div>
+        <button type="submit" class="cta-btn">Login</button>
+        <div class="form-message"></div>
+        <a href="#" class="forgot-password">Forgot password?</a>
+      </form>
+    </section>
+  </main>
+
+
+  <footer>
+  
+
+    <p>&copy;  CareBuddy.</p>
+  </footer>
+  <script src="script.js"></script>
+  <script src="mode-toggle.js"></script>
+<script src="ContactValidation.js"></script>
+  <script src="productaddtocard.js"></script>
+
+</body>
+</html>
